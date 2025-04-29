@@ -39,7 +39,7 @@ body{
     border-radius: 50%;
 }
 
-.inner-div1{
+.hero-section{
     margin-bottom: 60px;
     border-bottom: 2px #999 solid;
 }
@@ -123,7 +123,7 @@ body{
     padding: 5px;
 }
 
-.inner-div1 .info-text{
+.hero-section .info-text{
     display: none;
 }
 
@@ -134,17 +134,17 @@ body{
     margin-bottom: 50px;
 }
 
-.div2-text{
+.supporting-section-text{
     text-align: center;
 }
 
-.div2-text h2{
+.supporting-section-text h2{
     font-size: 25px;
     font-weight: normal;
     color: #222;
 }
 
-.div2-text p{
+.supporting-section-text p{
     font-size: 17px;
     font-weight: normal;
     color: #222;
@@ -212,7 +212,7 @@ body{
         align-items: center;
     }
 
-    .inner-div1{
+    .hero-section{
         /* background-color: red; */
         max-width: 46%;
         margin-left: 0px;
@@ -267,7 +267,7 @@ body{
         padding: 18px;
     }
 
-    .inner-div2{
+    .supporting-section{
         max-width: 45%;
         margin: auto;
         /* margin-left: 20px; */
@@ -285,7 +285,7 @@ body{
     }
     
 
-    .div2-text{
+    .supporting-section-text{
         text-align: center;
     }
 
@@ -293,17 +293,17 @@ body{
         margin-bottom: 5px;
     }
 
-    .inner-div2 .info-text{
+    .supporting-section .info-text{
         display: none;
     }
 
-    .inner-div1 .info-text{
+    .hero-section .info-text{
         border-top: 2px solid #999;
         padding-top: 30px;
         display: block;
     }
 
-    .inner-div1{
+    .hero-section{
         border-bottom: none;
     }
 
